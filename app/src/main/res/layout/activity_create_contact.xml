@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".contacts.CreateContact">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="Please enter name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="Please enter number"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/etWeb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="Please enter web adress"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:ems="10"
+        android:gravity="center_horizontal"
+        android:hint="Please enter location"
+        android:inputType="textPersonName" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/ivHappy"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            app:srcCompat="@drawable/happy" />
+
+        <ImageView
+            android:id="@+id/ivSad"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            app:srcCompat="@drawable/sad" />
+
+        <ImageView
+            android:id="@+id/ivNeutral"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1"
+            android:clickable="true"
+            app:srcCompat="@drawable/neutral" />
+    </LinearLayout>
+
+</LinearLayout>

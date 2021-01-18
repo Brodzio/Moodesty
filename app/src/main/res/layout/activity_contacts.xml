@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:gravity="center_horizontal"
+        android:text="@string/contacts" />
+
+    <ImageView
+        android:id="@+id/ivMood"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        app:srcCompat="@drawable/happy"
+        android:contentDescription="@string/happyface" />
+
+    <ImageView
+        android:id="@+id/ivPhone"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/phone"
+        android:contentDescription="@string/phone_icon" />
+
+    <ImageView
+        android:id="@+id/ivWeb"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/web"
+        android:contentDescription="@string/web_icon" />
+
+    <ImageView
+        android:id="@+id/ivLocation"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:clickable="true"
+        app:srcCompat="@drawable/location"
+        android:contentDescription="@string/location_icon" />
+
+    <Button
+        android:id="@+id/btnCreate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:background="@color/colorAccent"
+        android:text="@string/createContacts"
+        android:textColor="#000000"
+        android:textStyle="bold" />
+</LinearLayout>

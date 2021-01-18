@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Moodesty</string>
+    <string name="contacts">Contacts</string>
+    <string name="createContacts">Create new contact</string>
+    <string name="happyface">HappyFace</string>
+    <string name="phone_icon">phone icon</string>
+    <string name="web_icon">web icon</string>
+    <string name="location_icon">location icon</string>
+    <string name="please_enter_your_login">Please enter your login</string>
+    <string name="please_enter_your_password">Please enter your password</string>
+    <string name="login">Login</string>
+    <string name="enter_data">Enter your data!!!</string>
+    <string name="login_sign">Login sign</string>
+    <string name="introduction">Yooo buddy!</string>
+    <string name="introduction2">This app was created for people in help by those who know a little bit about hole. It is very simple and contains only these options which are really needed in this overcrowded world. So stay alive and reach for help and happiness.</string>
+    <string name="register">Register</string>
+    <string name="properData">Enter proper data</string>
+    <string name="cancel">Canceled</string>
+    <string name="Log_in">Log in</string>
+</resources>
